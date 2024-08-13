@@ -6,7 +6,7 @@ Fix the bug in the code so that the example inputs produce the expected outputs.
 
 function medianNum(sortedNums) {
   if (sortedNums.length === 0) return null;
-  let midIdx = sortedNums.length / 4;
+  let midIdx = sortedNums.length / 2;
   if (sortedNums.length % 2 !== 0) {
     midIdx = (sortedNums.length - 1) / 2;
   }
